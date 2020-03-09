@@ -32,7 +32,7 @@ Aprenderas a:
 Para **Data Science**, **IBM Cloud** tiene herramientas como:
 * [![Watson Studio][img-WS]][url-WS] Que simplifica y escala la ciencia de datos para predecir y optimizar el porvenir de los negocios.
 
-* [![IBM Cloud Watson Machine Learning Accelerator][img-machine]][url-machine] Que hace que el deep learning y el machine learning sean más accesibles para su personal y proporciona los beneficios de la IA a su negocio.
+* [![IBM Cloud Watson Machine Learning][img-machine]][url-machine] Que te permite correr modelos en cualquier lugar a travez de la nube. Te permite traer tus productos de AI a producción. 
 
 * Jupyter Notebooks: una aplicación web de código abierto que le permite crear y compartir documentos que contienen código en vivo, ecuaciones, visualizaciones y texto explicativo.
 
@@ -112,5 +112,5 @@ https://github.com/ibmdevelopermx
 [img-visual]: https://img.shields.io/badge/IBM%20Cloud-Watson%20Visual%20Recongnition-9cf.svg
 [url-visual]: https://www.ibm.com/cloud/watson-visual-recognition
 [img-machine]: https://img.shields.io/badge/IBM%20Cloud-Watson%20Machine%20Learning%20Accelerator-9cf.svg
-[url-machine]: https://www.ibm.com/us-en/marketplace/deep-learning-platform
+[url-machine]: https://www.ibm.com/cloud/machine-learning
 [url-academic]: https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/
