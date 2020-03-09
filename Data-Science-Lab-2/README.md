@@ -9,7 +9,7 @@ Aprende a crear un modelo en un Jupiter Notebook dentro de Watson Studio!!
 ![](img/1.png)
 2.	Elegimos “Notebook” como “Asset Type”.
 ![](img/2.png)
-3.	Ahora seleccionamos la pestaña “From URL”. Le damos un nombre original a nuestra Jupyter Notebook, elegimos la opción “Python 3.6” en “Enviroment” y en URL pegamos la siguiente dirección: https://raw.githubusercontent.com/ibmdevelopermx/CHURN-app-Jupyter-Notebook-y-WS/master/notebooks/Telco-customer-churn-ICP4D.ipynb
+3.	Ahora seleccionamos la pestaña “From URL”. Le damos un nombre original a nuestra Jupyter Notebook, elegimos la opción “Python 3.6” en “Enviroment” y en URL pegamos la siguiente dirección: https://raw.githubusercontent.com/ibmdevelopermx/DataScience/master/notebooks/Telco-customer-churn-ICP4D.ipynb
 Y damos clic en “Create Notebook”.
 ![](img/3.png)
 4.	Una vez que cargue nuestra Jupyter Notebook, podemos empezar a correr las celdas.
