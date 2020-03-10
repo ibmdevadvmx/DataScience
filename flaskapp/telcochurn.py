@@ -27,21 +27,21 @@ app.config.update(dict(
 ))
 
 strings = {
-    "gender": ['Female', 'Male'],
-    "Partner": ['Yes', 'No'],
-    "Dependents": ['No', 'Yes'],
-    "PhoneService": ['No', 'Yes'],
-    "MultipleLines": ['No phone service', 'No', 'Yes'],
-    "InternetService": ['DSL', 'Fiber optic', 'No'],
-    "OnlineSecurity": ['No', 'Yes', 'No internet service'],
-    "OnlineBackup": ['Yes', 'No', 'No internet service'],
-    "DeviceProtection": ['No', 'Yes', 'No internet service'],
-    "TechSupport": ['No', 'Yes', 'No internet service'],
+    "Genero": ['Female', 'Male'],
+    "Pareja": ['Yes', 'No'],
+    "Dependientes": ['No', 'Yes'],
+    "Servicio telefonico": ['No', 'Yes'],
+    "Lineas multiples": ['No phone service', 'No', 'Yes'],
+    "Servico de Internet": ['DSL', 'Fiber optic', 'No'],
+    "Seguridad en linea": ['No', 'Yes', 'No internet service'],
+    "Respaldo en linea": ['Yes', 'No', 'No internet service'],
+    "Proteccion de dispositivo": ['No', 'Yes', 'No internet service'],
+    "Soporte tecnico": ['No', 'Yes', 'No internet service'],
     "StreamingTV": ['No', 'Yes', 'No internet service'],
     "StreamingMovies": ['No', 'Yes', 'No internet service'],
-    "Contract": ['Month-to-month', 'One year', 'Two year'],
-    "PaperlessBilling": ['Yes', 'No'],
-    "PaymentMethod": ['Electronic check',
+    "Contrato": ['Month-to-month', 'One year', 'Two year'],
+    "Facturacion sin papel": ['Yes', 'No'],
+    "Metodo de pago": ['Electronic check',
                       'Mailed check',
                       'Bank transfer (automatic)',
                       'Credit card (automatic)']
@@ -49,14 +49,14 @@ strings = {
 
 # min, max, default value
 floats = {
-    "MonthlyCharges": [0, 1000, 100],
-    "TotalCharges": [0, 50000, 1000]
+    "Cargos mensuales": [0, 1000, 100],
+    "Cargos totales": [0, 50000, 1000]
 }
 
 # min, max, default value
 ints = {
-    "SeniorCitizen": [0, 1, 0],
-    "tenure": [0, 100, 2],
+    "Adulto mayor": [0, 1, 0],
+    "Permanencia": [0, 100, 2],
 }
 
 labels = ["No Churn", "Churn"]
