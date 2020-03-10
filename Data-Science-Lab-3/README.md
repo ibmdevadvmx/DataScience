@@ -134,7 +134,7 @@ Y  damos clic en “Predict”. <br>
         # Edit the .env file with the required settings before starting the app.
         # Required: Provide your web service URL for scoring.
         # E.g., URL=https://9.10.222.3:31843/dmodel/v1/project/pyscript/tag/score
-        URL=(aquí pegamos el URL que obtuvimos en el paso 8.7 sin paréntesis)
+        URL=(aquí pegamos el URL que obtuvimos en el paso 10.9 sin paréntesis)
 
         # Required: Provide your web service deployment access token.
         #           This TOKEN will be the part after `accessToken`. So, your
@@ -143,7 +143,7 @@ Y  damos clic en “Predict”. <br>
         # The value for `TOKEN=` below will be:
         #    TOKEN=eyJhbGciOi <snip> neQ
 
-        TOKEN=(aquí pegamos el token que obtuvimos en el paso 8.6 sin paréntesis)
+        TOKEN=(aquí pegamos el token que obtuvimos como resultado en la terminal/CMD en el paso 10.6 sin paréntesis)
 
         # Optional: You can override the server's host and port here.
 
