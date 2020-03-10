@@ -1,18 +1,21 @@
-# Data Science Serie
+# Data Science
+
+## JupyterNotebook con Watson Studio
+
 En este bootcamp conoceras las herramientas de IBM Cloud, que te permitiran descubrir patrones, construir predicciones usando información y tecnicas de Machine Learning e Inteligencia Artificial.
 
 Estas herramientas las encontraras en [![IBM Cloud Powered][img-ibmcloud-powered]][url-ibmcloud]
 
 Puedes encontrar más información de **IBM Data Science** en [![IBM Data Science][img-ibmcloudds]][url-ibmcloudds]
 
-**Predecir la pérdida de clientes con Watson Machine Learning y las notebooks Jupyter en Cloud Pak para datos**
+**Predecir la pérdida de clientes con Watson Machine Learning y las notebooks Jupyter con Watson Studio**
 
 En este patrón de código, utilizamos **IBM Watson Studio** para pasar por toda la tubería de ciencia de datos para resolver un problema comercial y predecir la pérdida de clientes utilizando un conjunto de datos de pérdida de clientes de Telco.
 
 Aprenderas a:
 
    * Usar los cuadernos Jupyter para cargar, visualizar y analizar datos.
-   * Ejecutar cuadernos en IBM Watson Studio para datos.
+   * Ejecutar cuadernos en IBM Watson Studio.
    * Crear, probar e implementar un modelo de aprendizaje automático utilizando Spark MLib en Watson Studio.
    * Implementar un modelo de aprendizaje automático seleccionado para la producción usando Watson Studio
    * Crear una aplicación front-end para interactuar con el cliente y comenzar a consumir su modelo implementado.
@@ -71,20 +74,6 @@ Aprende a desplegar un modelo de un Jupiter Notebook dentro de Watson Studio:
 
 **Te invitamos a explorar otros talleres y manuales en el siguiente enlace de Github.**
 https://github.com/ibmdevelopermx
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Cupones para profesores y estudiantes:
