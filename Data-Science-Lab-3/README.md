@@ -70,8 +70,9 @@ Ojo: Esta es la parte 3 de 3 de nuestro taller de Data Science.
          	            ]
          	         ]
          	      }
-         ```
-         
+
+```
+
 Y  damos clic en “Predict”.
 ![](img/8.png)
 
