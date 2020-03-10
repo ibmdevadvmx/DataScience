@@ -73,7 +73,7 @@ Ojo: Esta es la parte 3 de 3 de nuestro taller de Data Science.
 
 ```
 
-Y  damos clic en “Predict”.
+Y  damos clic en “Predict”. <br>
 ![](img/8.png)
 
 4.	Ahora, Podemos visualizar el resultado de nuestra predicción en formato JSON. Al final, debemos poder ver un “Yes” o un “No” como valor correspondiente al “CHURN”.
@@ -99,12 +99,16 @@ Y  damos clic en “Predict”.
 ![](img/13.png)
 
 10.	Ahora, reemplazamos el access token resultante y la URL en donde corresponde e introducimos los comandos siguientes en la Terminal, CMD, etc.:
-###
+``` bash
       export WML_AUTH_TOKEN=<sustituir por “access token” sin espacios ni flechas>
       export URL=https://<sustituir por el URL de WML sin espacios ni flechas>
+```
+
 11.	Una vez que hemos exportado estos valores, realizamos la consulta introduciendo lo siguiente en nuestra Terminal, CMD, etc.:
-###
-      curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer  $WML_AUTH_TOKEN" -d '{"fields": ["gender","SeniorCitizen","Partner","Dependents","tenure","PhoneService","MultipleLines","InternetService","OnlineSecurity","OnlineBackup","DeviceProtection","TechSupport","StreamingTV","StreamingMovies","Contract","PaperlessBilling","PaymentMethod","MonthlyCharges","TotalCharges"],"values": [["Female",0,"No","No",1,"No","No phone service","DSL","No","No","No","No","No","No","Month-to-month","No","Bank transfer (automatic)",25.25,25.25]]}' $URL
+``` bash
+      curl -k -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header "Authorization: Bearer  $WML_AUTH_TOKEN" -d '{"fields":["Genero","Adulto Mayor","Pareja","Dependientes","Permanencia","Servicio telefonico","Lineas multiples","Servicio de internet","Seguridad en linea","Respaldo en linea","Proteccion de dispositivo","Soporte tecnico","StreamingTV","StreamingMovies","Contrato","Facturacion sin papel","Metodo de pago","Cargos mensuales","Cargos totales"],"values":[["Female",0,"No","No",1,"No","No phone service","DSL","No","No","No","No","No","No","Month-to-month","No","Bank transfer (automatic)",25.25,25.25]]}' $URL
+```
+
 12.	Hecho esto, obtendremos el resultado de nuestra consulta como un “YES” o “NO” al final de nuestros resultados.
 ![](img/14.png)
 ## 11. Desplegar la App:
