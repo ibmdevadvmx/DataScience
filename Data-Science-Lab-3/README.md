@@ -116,14 +116,18 @@ Y  damos clic en “Predict”. <br>
 2.	Accedemos a la carpeta (descomprimida) en la Terminal, CMD, etc
 ![](img/15.png)
 3.	Ahora, creamos nuestro ambiente (“enviroment”).
-  ###
+  ```bash
         python -m venv venv  
 	      source venv/bin/activate  (Mac / Linux)
 	      ./venv/Scripts/activate   (Windows)
+  ```
+
 4.	Instalamos los requerimientos de Python.
-###
+```bash
         cd flaskapp
         pip install -r requirements.txt
+```
+
 5.	Ahora, editamos el archivo “env.sample”, le añadimos nuestras credenciales y lo guardamos como “.env” (Si llegas a tener errores al correr la app, vuelve a sacar el token y cámbialo en el archivo “.env”, pues es temporal).
 ###
         # Copy this file to .env.
@@ -146,8 +150,10 @@ Y  damos clic en “Predict”. <br>
         HOST=0.0.0.0
         PORT=5000
 6.	Una vez hecho esto, corremos nuestra app con el siguiente comando:
-###
+```bash
         python telcochurn.py
+```
+
 7.	Ahora podemos acceder a nuestra app de forma local, pegando en el navegador lo siguiente: http://0.0.0.0:5000/
 ![](img/16.png)
 ![](img/17.png)

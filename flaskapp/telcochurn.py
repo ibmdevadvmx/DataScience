@@ -32,7 +32,7 @@ strings = {
     "Dependientes": ['No', 'Yes'],
     "Servicio telefonico": ['No', 'Yes'],
     "Lineas multiples": ['No phone service', 'No', 'Yes'],
-    "Servico de Internet": ['DSL', 'Fiber optic', 'No'],
+    "Servicio de internet": ['DSL', 'Fiber optic', 'No'],
     "Seguridad en linea": ['No', 'Yes', 'No internet service'],
     "Respaldo en linea": ['Yes', 'No', 'No internet service'],
     "Proteccion de dispositivo": ['No', 'Yes', 'No internet service'],
@@ -55,7 +55,7 @@ floats = {
 
 # min, max, default value
 ints = {
-    "Adulto mayor": [0, 1, 0],
+    "Adulto Mayor": [0, 1, 0],
     "Permanencia": [0, 100, 2],
 }
 
