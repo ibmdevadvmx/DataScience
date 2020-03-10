@@ -23,53 +23,54 @@ Ojo: Esta es la parte 3 de 3 de nuestro taller de Data Science.
 ![](img/7.png)
 
 3.	Ahora, en el apartado “Paste the request payload here”, pegamos lo siguiente:
-###
-         1.	      {
-         2.	         "fields":[
-         3.	            "gender",
-         4.	            "SeniorCitizen",
-         5.	            "Partner",
-         6.	            "Dependents",
-         7.	            "tenure",
-         8.	            "PhoneService",
-         9.	            "MultipleLines",
-         10.	            "InternetService",
-         11.	            "OnlineSecurity",
-         12.	            "OnlineBackup",
-         13.	            "DeviceProtection",
-         14.	            "TechSupport",
-         15.	            "StreamingTV",
-         16.	            "StreamingMovies",
-         17.	            "Contract",
-         18.	            "PaperlessBilling",
-         19.	            "PaymentMethod",
-         20.	            "MonthlyCharges",
-         21.	            "TotalCharges"
-         22.	         ],
-         23.	         "values":[
-         24.	            [
-         25.	               "Female",
-         26.	               0,
-         27.	               "No",
-         28.	               "No",
-         29.	               1,
-         30.	               "No",
-         31.	               "No phone service",
-         32.	               "DSL",
-         33.	               "No",
-         34.	               "No",
-         35.	               "No",
-         36.	               "No",
-         37.	               "No",
-         38.	               "No",
-         39.	               "Month-to-month",
-         40.	               "No",
-         41.	               "Bank transfer (automatic)",
-         42.	               25.25,
-         43.	               25.25
-         44.	            ]
-         45.	         ]
-         46.	      }
+``` json
+         	      {
+         	         "fields":[
+         	            "Genero",
+         	            "Adulto Mayor",
+         	            "Pareja",
+         	            "Dependientes",
+         	            "Permanencia",
+         	            "Servicio telefonico",
+         	            "Lineas multiples",
+         	            "Servicio de internet",
+         	            "Seguridad en linea",
+         	            "Respaldo en linea",
+         	            "Proteccion de dispositivo",
+         	            "Soporte tecnico",
+         	            "StreamingTV",
+         	            "StreamingMovies",
+                        "Contrato",
+         	            "Facturacion sin papel",
+         	            "Metodo de pago",
+         	            "Cargos mensuales",
+         	            "Cargos totales"
+         	         ],
+         	         "values":[
+         	            [
+         	               "Female",
+            	               0,
+         	               "No",
+         	               "No",
+         	               1,
+         	               "No",
+         	               "No phone service",
+         	               "DSL",
+         	               "No",
+         	               "No",
+                           "No",
+         	               "No",
+      	               "No",
+      	               "No",
+         	               "Month-to-month",
+         	               "No",
+         	               "Bank transfer (automatic)",
+         	               25.25,
+         	               25.25
+         	            ]
+         	         ]
+         	      }
+         ```
 Y  damos clic en “Predict”.
 ![](img/8.png)
 
